@@ -1,0 +1,652 @@
+<!--
+SPDX-FileCopyrightText: 2025 Qian
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+  <course>
+    <id>3173009118</id>
+    <name>C语言程序设计</name>
+    <prerequisitecourses>
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009061</id>
+    <name>C/C++语言程序设计</name>
+    <prerequisitecourses>
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009062</id>
+    <name>C/C++语言程序设计实验</name>
+    <prerequisitecourses>
+      <courseId>3173009061</courseId>
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009117</id>
+    <name>C++语言程序设计</name>
+    <prerequisitecourses>
+      <courseId>3173009061</courseId> <!-- 需要先修C语言基础 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007002</id>
+    <name>EDA技术</name>
+    <prerequisitecourses>
+      <courseId>317300007016</courseId> <!-- 数字逻辑与EDA技术 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007024</id>
+    <name>Java程序设计</name>
+    <prerequisitecourses>
+      <courseId>3173009061</courseId> <!-- 需要编程基础 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009017</id>
+    <name>Linux Shell命令和脚本编程</name>
+    <prerequisitecourses>
+      <courseId>3173009061</courseId> <!-- 需要编程基础 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007027</id>
+    <name>Linux编程与应用</name>
+    <prerequisitecourses>
+      <courseId>3173009017</courseId> <!-- Linux Shell基础 -->
+      <courseId>3173009061</courseId> <!-- 编程基础 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007090</id>
+    <name>Python 语言程序设计</name>
+    <prerequisitecourses>
+      <!-- 基础编程课程通常没有先修要求 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007014</id>
+    <name>Python程序设计</name>
+    <prerequisitecourses>
+      <!-- 基础编程课程通常没有先修要求 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009119</id>
+    <name>Python语言程序设计</name>
+    <prerequisitecourses>
+      <!-- 基础编程课程通常没有先修要求 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3043009012</id>
+    <name>R语言编程</name>
+    <prerequisitecourses>
+      <courseId>310300001023</courseId> <!-- 概率论 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009020</id>
+    <name>毕业论文</name>
+    <prerequisitecourses>
+      <!-- 需要完成大部分专业课程 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007008</id>
+    <name>操作系统B</name>
+    <prerequisitecourses>
+      <courseId>317300007020</courseId> <!-- 计算机组成原理 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3103009108</id>
+    <name>常微分方程</name>
+    <prerequisitecourses>
+      <courseId>3103009102</courseId> <!-- 数学分析 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300008001</id>
+    <name>程序设计能力综合实践</name>
+    <prerequisitecourses>
+      <courseId>3173009061</courseId> <!-- C/C++语言程序设计 -->
+      <courseId>317300007019</courseId> <!-- 数据结构 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009101</id>
+    <name>大数据采集与存储</name>
+    <prerequisitecourses>
+      <courseId>317300007058</courseId> <!-- 非结构化数据库 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007089</id>
+    <name>大数据基础与应用</name>
+    <prerequisitecourses>
+      <courseId>317300007049</courseId> <!-- 大数据统计分析基础 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007049</id>
+    <name>大数据统计分析基础</name>
+    <prerequisitecourses>
+      <courseId>310300001023</courseId> <!-- 概率论 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009102</id>
+    <name>大数据项目综合实践</name>
+    <prerequisitecourses>
+      <courseId>3173009101</courseId> <!-- 大数据采集与存储 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007064</id>
+    <name>多媒体数据分析与处理</name>
+    <prerequisitecourses>
+      <courseId>317300007042</courseId> <!-- 数字图像处理 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007058</id>
+    <name>非结构化数据库</name>
+    <prerequisitecourses>
+      <courseId>317300007072</courseId> <!-- 数据库与Web开发 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>310300007014</id>
+    <name>分析与代数选讲</name>
+    <prerequisitecourses>
+      <courseId>3103009105</courseId> <!-- 高等代数 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3103000124</id>
+    <name>复变函数</name>
+    <prerequisitecourses>
+      <courseId>3103009102</courseId> <!-- 数学分析 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>310300007044</id>
+    <name>复变函数与积分变换</name>
+    <prerequisitecourses>
+      <courseId>3103009102</courseId> <!-- 数学分析 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>310300001023</id>
+    <name>概率论</name>
+    <prerequisitecourses>
+      <courseId>3103009102</courseId> <!-- 数学分析 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>310300007007</id>
+    <name>概率论与数理统计</name>
+    <prerequisitecourses>
+      <courseId>310300001023</courseId> <!-- 概率论 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3103009105</id>
+    <name>高等代数（2）</name>
+    <prerequisitecourses>
+      <courseId>3103009102</courseId> <!-- 数学分析 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007039</id>
+    <name>高性能计算</name>
+    <prerequisitecourses>
+      <courseId>3173009061</courseId> <!-- C/C++语言程序设计 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007017</id>
+    <name>汇编语言程序设计</name>
+    <prerequisitecourses>
+      <courseId>317300007020</courseId> <!-- 计算机组成原理 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007074</id>
+    <name>机器学习</name>
+    <prerequisitecourses>
+      <courseId>310300007007</courseId> <!-- 概率论与数理统计 -->
+      <courseId>317300007037</courseId> <!-- 神经网络与深度学习 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300009015</id>
+    <name>机器学习实验</name>
+    <prerequisitecourses>
+      <courseId>317300007074</courseId> <!-- 机器学习理论 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>310300007031</id>
+    <name>机器学习中的优化方法</name>
+    <prerequisitecourses>
+      <courseId>3103009102</courseId> <!-- 数学分析 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009045</id>
+    <name>计算机工程与应用综合设计与实践</name>
+    <prerequisitecourses>
+      <courseId>317300007020</courseId> <!-- 计算机组成原理 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007034</id>
+    <name>计算机视觉B</name>
+    <prerequisitecourses>
+      <courseId>317300007042</courseId> <!-- 数字图像处理 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007004</id>
+    <name>计算机网络B</name>
+    <prerequisitecourses>
+      <courseId>317300007020</courseId> <!-- 计算机组成原理 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007046</id>
+    <name>计算机组成与结构</name>
+    <prerequisitecourses>
+      <courseId>317300007020</courseId> <!-- 计算机组成原理 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007020</id>
+    <name>计算机组成原理</name>
+    <prerequisitecourses>
+      <courseId>317300007016</courseId> <!-- 数字逻辑与EDA技术 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300009006</id>
+    <name>计算机组成原理课程设计</name>
+    <prerequisitecourses>
+      <courseId>317300007020</courseId> <!-- 计算机组成原理 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009014</id>
+    <name>计算生物化学</name>
+    <prerequisitecourses>
+      <courseId>3173009061</courseId> <!-- 编程基础 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009065</id>
+    <name>离散数学</name>
+    <prerequisitecourses>
+      <courseId>3103009102</courseId> <!-- 数学分析 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007026</id>
+    <name>嵌入式系统A</name>
+    <prerequisitecourses>
+      <courseId>317300007020</courseId> <!-- 计算机组成原理 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007082</id>
+    <name>强化学习</name>
+    <prerequisitecourses>
+      <courseId>317300007074</courseId> <!-- 机器学习 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007061</id>
+    <name>区块链导论</name>
+    <prerequisitecourses>
+      <courseId>317300007004</courseId> <!-- 计算机网络 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3103009375</id>
+    <name>人工智能</name>
+    <prerequisitecourses>
+      <courseId>317300007074</courseId> <!-- 机器学习 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009067</id>
+    <name>人工智能</name>
+    <prerequisitecourses>
+      <courseId>317300007074</courseId> <!-- 机器学习 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300008003</id>
+    <name>人工智能程序与平台设计与实践</name>
+    <prerequisitecourses>
+      <courseId>3173009067</courseId> <!-- 人工智能 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007032</id>
+    <name>人工智能导论</name>
+    <prerequisitecourses>
+      <courseId>3173009061</courseId> <!-- 编程基础 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300009014</id>
+    <name>人工智能实验</name>
+    <prerequisitecourses>
+      <courseId>3173009067</courseId> <!-- 人工智能 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300008004</id>
+    <name>人工智能应用综合设计与实践</name>
+    <prerequisitecourses>
+      <courseId>3173009067</courseId> <!-- 人工智能 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007081</id>
+    <name>人机交互</name>
+    <prerequisitecourses>
+      <courseId>317300007034</courseId> <!-- 计算机视觉 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009112</id>
+    <name>软件测试与质量保障</name>
+    <prerequisitecourses>
+      <courseId>317300007018</courseId> <!-- 软件工程 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007018</id>
+    <name>软件工程A</name>
+    <prerequisitecourses>
+      <courseId>317300007019</courseId> <!-- 数据结构 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300009004</id>
+    <name>软件工程课程设计</name>
+    <prerequisitecourses>
+      <courseId>317300007018</courseId> <!-- 软件工程 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3103009931</id>
+    <name>软件与理论综合设计与实践</name>
+    <prerequisitecourses>
+      <courseId>317300007018</courseId> <!-- 软件工程 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007085</id>
+    <name>三维视觉与理解</name>
+    <prerequisitecourses>
+      <courseId>317300007034</courseId> <!-- 计算机视觉 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007063</id>
+    <name>社交网络数据分析与处理</name>
+    <prerequisitecourses>
+      <courseId>317300007049</courseId> <!-- 大数据统计分析基础 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009088</id>
+    <name>神经网络与深度学习</name>
+    <prerequisitecourses>
+      <courseId>310300007007</courseId> <!-- 概率论与数理统计 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007037</id>
+    <name>神经网络与深度学习</name>
+    <prerequisitecourses>
+      <courseId>310300007007</courseId> <!-- 概率论与数理统计 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007070</id>
+    <name>生物数据统计原理</name>
+    <prerequisitecourses>
+      <courseId>310300007007</courseId> <!-- 概率论与数理统计 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3043009005</id>
+    <name>生物物理学导论</name>
+    <prerequisitecourses>
+      <courseId>310300001023</courseId> <!-- 概率论 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009021</id>
+    <name>生物信息项目创新训练</name>
+    <prerequisitecourses>
+      <courseId>3173009014</courseId> <!-- 计算生物化学 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3043009009</id>
+    <name>生物信息学进展</name>
+    <prerequisitecourses>
+      <courseId>3173009014</courseId> <!-- 计算生物化学 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>310300007013</id>
+    <name>实变函数</name>
+    <prerequisitecourses>
+      <courseId>3103009102</courseId> <!-- 数学分析 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300001007</id>
+    <name>数据分析A</name>
+    <prerequisitecourses>
+      <courseId>310300007007</courseId> <!-- 概率论与数理统计 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007019</id>
+    <name>数据结构A</name>
+    <prerequisitecourses>
+      <courseId>3173009061</courseId> <!-- C/C++语言程序设计 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007010</id>
+    <name>数据结构B</name>
+    <prerequisitecourses>
+      <courseId>3173009061</courseId> <!-- C/C++语言程序设计 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300009005</id>
+    <name>数据结构实验</name>
+    <prerequisitecourses>
+      <courseId>317300007019</courseId> <!-- 数据结构理论 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007072</id>
+    <name>数据库与Web开发</name>
+    <prerequisitecourses>
+      <courseId>3173009061</courseId> <!-- 编程基础 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007047</id>
+    <name>数据通信与网络</name>
+    <prerequisitecourses>
+      <courseId>317300007004</courseId> <!-- 计算机网络 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>310300010008</id>
+    <name>数据挖掘A</name>
+    <prerequisitecourses>
+      <courseId>310300007007</courseId> <!-- 概率论与数理统计 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3103009379</id>
+    <name>数据挖掘B</name>
+    <prerequisitecourses>
+      <courseId>310300007007</courseId> <!-- 概率论与数理统计 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3103009102</id>
+    <name>数学分析（2）</name>
+    <prerequisitecourses>
+      <!-- 基础数学课程 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>310300010007</id>
+    <name>数学建模A</name>
+    <prerequisitecourses>
+      <courseId>3103009102</courseId> <!-- 数学分析 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3103009058</id>
+    <name>数学建模B</name>
+    <prerequisitecourses>
+      <courseId>3103009102</courseId> <!-- 数学分析 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>310300010004</id>
+    <name>数学建模实验A</name>
+    <prerequisitecourses>
+      <courseId>310300010007</courseId> <!-- 数学建模理论 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>310300008001</id>
+    <name>数学建模与信息技术应用实践</name>
+    <prerequisitecourses>
+      <courseId>310300010007</courseId> <!-- 数学建模 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>310300007011</id>
+    <name>数值逼近</name>
+    <prerequisitecourses>
+      <courseId>3103009102</courseId> <!-- 数学分析 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3103009131</id>
+    <name>数值分析</name>
+    <prerequisitecourses>
+      <courseId>3103009102</courseId> <!-- 数学分析 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007016</id>
+    <name>数字逻辑与EDA技术</name>
+    <prerequisitecourses>
+      <!-- 基础课程 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300009003</id>
+    <name>数字逻辑与EDA技术实验</name>
+    <prerequisitecourses>
+      <courseId>317300007016</courseId> <!-- 数字逻辑与EDA技术理论 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007042</id>
+    <name>数字图像处理</name>
+    <prerequisitecourses>
+      <courseId>3103009102</courseId> <!-- 数学分析 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007052</id>
+    <name>信息检索与搜索引擎</name>
+    <prerequisitecourses>
+      <courseId>317300007072</courseId> <!-- 数据库与Web开发 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009012</id>
+    <name>药物化学</name>
+    <prerequisitecourses>
+      <courseId>3173009014</courseId> <!-- 计算生物化学 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>3173009058</id>
+    <name>药物设计导论B</name>
+    <prerequisitecourses>
+      <courseId>3173009012</courseId> <!-- 药物化学 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007062</id>
+    <name>医学影像数据分析与处理</name>
+    <prerequisitecourses>
+      <courseId>317300007042</courseId> <!-- 数字图像处理 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>310300007020</id>
+    <name>应用多元统计分析</name>
+    <prerequisitecourses>
+      <courseId>310300007007</courseId> <!-- 概率论与数理统计 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>310300007005</id>
+    <name>应用时间序列分析</name>
+    <prerequisitecourses>
+      <courseId>310300007007</courseId> <!-- 概率论与数理统计 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007059</id>
+    <name>云计算</name>
+    <prerequisitecourses>
+      <courseId>317300007004</courseId> <!-- 计算机网络 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007041</id>
+    <name>智慧农业</name>
+    <prerequisitecourses>
+      <courseId>3173009067</courseId> <!-- 人工智能 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300007077</id>
+    <name>智能机器人</name>
+    <prerequisitecourses>
+      <courseId>3173009067</courseId> <!-- 人工智能 -->
+    </prerequisitecourses>
+  </course>
+  <course>
+    <id>317300009018</id>
+    <name>智能机器人实验</name>
+    <prerequisitecourses>
+      <courseId>317300007077</courseId> <!-- 智能机器人理论 -->
+    </prerequisitecourses>
+  </course>
+</courses>

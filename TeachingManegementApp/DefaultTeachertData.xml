@@ -1,0 +1,56 @@
+<!--
+SPDX-FileCopyrightText: 2025 Qian
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+<teachers>
+    <teacher>
+        <id>20230123456789</id>
+        <name>白岩松 </name>
+        <age>20</age>
+    </teacher>
+    <teacher>
+        <id>20229876543210</id>
+        <name>董卿</name>
+        <age>21</age>
+    </teacher>
+    <teacher>
+        <id>20231122334455</id>
+        <name>撒贝宁</name>
+        <age>19</age>
+    </teacher>
+    <teacher>
+        <id>20235678123456</id>
+        <name>康辉</name>
+        <age>22</age>
+    </teacher>
+    <teacher>
+        <id>20234567891234</id>
+        <name>朱迅</name>
+        <age>20</age>
+    </teacher>
+    <teacher>
+        <id>20233344556677</id>
+        <name>尼格买提</name>
+        <age>21</age>
+    </teacher>
+    <teacher>
+        <id>20237894561230</id>
+        <name>朱广权</name>
+        <age>19</age>
+    </teacher>
+    <teacher>
+        <id>20236789012345</id>
+        <name>刚强</name>
+        <age>20</age>
+    </teacher>
+    <teacher>
+        <id>20231234567890</id>
+        <name>周涛</name>
+        <age>22</age>
+    </teacher>
+    <teacher>
+        <id>20230987654321</id>
+        <name>倪萍</name>
+        <age>21</age>
+    </teacher>
+</teachers>

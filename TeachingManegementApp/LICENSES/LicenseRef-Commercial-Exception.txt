@@ -1,0 +1,13 @@
+Additional permission under GNU AGPLv3 section 7:
+
+1. Commercial Exception:
+   - Entities with annual revenue exceeding $1M USD must obtain 
+     a commercial license from copyright holder.
+
+2. Attribution Requirement:
+   - All derivative works must display original copyright notice 
+     in "About" dialog and documentation.
+
+3. Anti-Tivoization:
+   - Any device running this software must provide 
+     "Install Modified Version" capability.
