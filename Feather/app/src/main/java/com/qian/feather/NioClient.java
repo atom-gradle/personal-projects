@@ -12,12 +12,11 @@ import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 /**
- * @author Qian Yanrun
+ * @author atom-gradle
  */
 
 public class NioClient {
-    private static final String host = "115.29.241.155";
-    //private static final String host = "192.168.1.110";
+    private static final String host = "192.168.1.110";
     private static final int port = 8000;
     private SocketChannel socketChannel;
     private Selector selector;
@@ -144,5 +143,6 @@ public class NioClient {
         void onConnectionStatusChanged(boolean connected);
         void onException(Exception exception);
     }
+
 
 }
