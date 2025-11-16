@@ -7,9 +7,11 @@ Welcome to my personal projects repository! This is a collection of various prog
 ### [Feather App](./Feather/)
 A WeChat-inspired Social Android App.
 ### [TeachingMagementApp](./TeachingMagementApp/)
-An Desktop Application supported by Qt 5.
-### [Neural Network Implementation](./NeuralNetwork/)
-A from-scratch implementation of neural networks with backpropagation algorithm.
+An Desktop Application supported by Qt 5, c++ 11.
+### [CNN Network Implementation](./NeuralNetwork/)
+A from-scratch Java implementation of Handwritten Digit Recognition CNN Network.
+### [NIO Server](./Reactor/)
+A non-blocking concurrent server implementation of NIO model, developed by API in the java.nio package.
 
 ## 🛠️ Technologies Used
 
