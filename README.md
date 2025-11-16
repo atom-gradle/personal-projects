@@ -5,7 +5,7 @@ Welcome to my personal projects repository! This is a collection of various prog
 ## 📁 Projects
 
 ### [Feather App](./Feather/)
-An Android App that features chatting and socializing.
+A WeChat-inspired Social Android App.
 ### [TeachingMagementApp](./TeachingMagementApp/)
 An Desktop Application supported by Qt 5.
 ### [Neural Network Implementation](./NeuralNetwork/)
