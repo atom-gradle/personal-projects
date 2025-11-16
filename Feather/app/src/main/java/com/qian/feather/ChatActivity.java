@@ -41,7 +41,7 @@ import java.util.concurrent.Executors;
 import okhttp3.OkHttpClient;
 
 /**
- * @author Qian Yanrun
+ * @author atom-gradle
  */
 
 public class ChatActivity extends AppCompatActivity {
@@ -455,3 +455,4 @@ public class ChatActivity extends AppCompatActivity {
         startActivity(intent);
     }
 }
+
