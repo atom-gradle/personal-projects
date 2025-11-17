@@ -46,39 +46,39 @@ A feature-rich, Android social messaging application inspired by WeChat, built n
 - app/
 - ├── src/main/
 - │   ├── java/com/qian/
-│   │   ├── activity/
-│   │   │   ├── LoginActivity.java
-│   │   │   ├── MainActivity.java
-│   │   │   └── ChatActivity.java
-│   │   ├── fragment/
-│   │   │   ├── HomeFragment.java
-│   │   │   ├── ContactFragment.java
-│   │   │   └── MeFragment.java
-│   │   ├── adapter/
-│   │   │   ├── ChatRecyclerViewAdapter.java (RecyclerView.Adapter)
-│   │   │   ├── ContactRecyclerViewAdapter.java (RecyclerView.Adapter)
-│   │   │   └── MainRecyclerViewAdapter.java (RecyclerView.Adapter)
-│   │   ├── model/
-│   │   │   ├── User.java
-│   │   │   ├── Chat.java
-│   │   │   └── Msg.java
-│   │   ├── network/
-│   │   │   ├── Client.java
-│   │   │   ├── NIOClient.java
-│   │   └── util/
-│   └── res/
-│       ├── layout/
-│       │   ├── activity_login.xml
-│       │   ├── activity_main.xml
-│       │   ├── activity_chat.xml
-│       │   ├── fragment_home.xml
-│       │   ├── fragment_contact.xml
-│       │   ├── fragment_me.xml
-│       │   ├── item_chat.xml (RecyclerView item)
-│       │   ├── item_contact.xml (RecyclerView item)
-│       │   └── item_message.xml (RecyclerView item)
-│       ├── drawable/ (MDI icons from Pictogrammers)
-│       └── values/
+- │   │   ├── activity/
+- │   │   │   ├── LoginActivity.java
+- │   │   │   ├── MainActivity.java
+- │   │   │   └── ChatActivity.java
+- │   │   ├── fragment/
+- │   │   │   ├── HomeFragment.java
+- │   │   │   ├── ContactFragment.java
+- │   │   │   └── MeFragment.java
+- │   │   ├── adapter/
+- │   │   │   ├── ChatRecyclerViewAdapter.java (RecyclerView.Adapter)
+- │   │   │   ├── ContactRecyclerViewAdapter.java (RecyclerView.Adapter)
+- │   │   │   └── MainRecyclerViewAdapter.java (RecyclerView.Adapter)
+- │   │   ├── model/
+- │   │   │   ├── User.java
+- │   │   │   ├── Chat.java
+- │   │   │   └── Msg.java
+- │   │   ├── network/
+- │   │   │   ├── Client.java
+- │   │   │   ├── NIOClient.java
+- │   │   └── util/
+- │   └── res/
+- │       ├── layout/
+- │       │   ├── activity_login.xml
+- │       │   ├── activity_main.xml
+- │       │   ├── activity_chat.xml
+- │       │   ├── fragment_home.xml
+- │       │   ├── fragment_contact.xml
+- │       │   ├── fragment_me.xml
+- │       │   ├── item_chat.xml (RecyclerView item)
+- │       │   ├── item_contact.xml (RecyclerView item)
+- │       │   └── item_message.xml (RecyclerView item)
+- │       ├── drawable/ (MDI icons from Pictogrammers)
+- │       └── values/
 
 ## 🎯 Key Android Components Demonstrated
 
