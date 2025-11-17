@@ -43,9 +43,9 @@ A feature-rich, Android social messaging application inspired by WeChat, built n
 - **Architecture:** Standard Android Architecture Components
 
 ## 🏗 App Architecture (lists only part of the whole project)
-app/
-├── src/main/
-│   ├── java/com/qian/
+- app/
+- ├── src/main/
+- │   ├── java/com/qian/
 │   │   ├── activity/
 │   │   │   ├── LoginActivity.java
 │   │   │   ├── MainActivity.java
