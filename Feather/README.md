@@ -32,8 +32,14 @@ A feature-rich, Android social messaging application inspired by WeChat, built n
 
 - **Language:** Java
 - **Minimum SDK:** Android 10.0 (API 29)
+- **Core Android Components:**
+  - `Activity` - For screen-level UI containers
+  - `Fragment` - For modular, reusable UI components
+  - `Intent` - For navigation and inter-component communication
+  - `RecyclerView` - For efficient list display of chats and contacts
 - **Image Loading:** [Glide](https://github.com/bumptech/glide) - For efficient image handling
 - **Network Communication:** Custom socket implementation
+- **Icons & Assets:** Material Design Icons from [Pictogrammers](https://pictogrammers.com/library/mdi/)
 - **Architecture:** Standard Android Architecture Components
 
 ## 🏗 App Architecture
