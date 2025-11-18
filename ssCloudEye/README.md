@@ -33,6 +33,6 @@
 As a core backend development member, under the guidance of teachers and seniors, responsible for:
 
 ### 🔧 Architecture optimization and code quality
-- **Design and implement a unified exception handling mechanism**，reduce controller code redundancy by **~30%**，unified API Error Response Format
-- **Lead database performance optimization**，by analyzing and optimizing SQL queries and indexes, the response time of critical interfaces is reduced by **~15%**
-- **Promote the modernization of code transformation**，refactoring Traditional Code with Java 8 Streams API and Optional，reducing code volume by **~20%**，improving readability and air security
+- **Design and implement a unified exception handling mechanism**，Reduce controller code redundancy by **~30%**，unified API Error Response Format
+- **Lead database performance optimization**，By analyzing and optimizing SQL queries and indexes, the response time of critical interfaces is reduced by **~15%**
+- **Promote the modernization of code transformation**，Refactor traditional code with Java 8 Streams API and Optional，reducing code volume by **~20%**，improving readability and air security
