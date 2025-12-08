@@ -1,0 +1,282 @@
+/* 添加员工模态框自定义样式 */
+#addEmployeeModal .modal-content {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#addEmployeeModal .modal-header {
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #4a6baf 0%, #3a5a9f 100%);
+    border-bottom: none;
+}
+
+#addEmployeeModal .modal-title {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+#addEmployeeModal .modal-body {
+    background-color: #f8fafc;
+}
+
+#addEmployeeModal .form-label {
+    font-size: 0.9rem;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+}
+
+#addEmployeeModal .form-label i {
+    width: 18px;
+    text-align: center;
+}
+
+#addEmployeeModal .form-control,
+#addEmployeeModal .form-select {
+    border-radius: 8px;
+    border: 2px solid #e2e8f0;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    background-color: white;
+}
+
+#addEmployeeModal .form-control:focus,
+#addEmployeeModal .form-select:focus {
+    border-color: #4a6baf;
+    box-shadow: 0 0 0 3px rgba(74, 107, 175, 0.1);
+}
+
+#addEmployeeModal .input-group-text {
+    background-color: #f1f5f9;
+    border: 2px solid #e2e8f0;
+    border-right: none;
+    color: #64748b;
+    padding: 0.75rem 1rem;
+}
+
+#addEmployeeModal .form-control.border-start-0,
+#addEmployeeModal .form-select.border-start-0 {
+    border-left: none;
+}
+
+#addEmployeeModal .form-control.border-start-0:focus,
+#addEmployeeModal .form-select.border-start-0:focus {
+    border-left: none;
+}
+
+/* 必填字段标识 */
+#addEmployeeModal .text-danger {
+    color: #e53e3e !important;
+}
+
+/* 占位符样式 */
+#addEmployeeModal ::placeholder {
+    color: #a0aec0;
+    font-size: 0.9rem;
+}
+
+/* 按钮样式 */
+#addEmployeeModal .btn {
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+#addEmployeeModal .btn-primary {
+    background: linear-gradient(135deg, #4a6baf 0%, #3a5a9f 100%);
+    border: none;
+}
+
+#addEmployeeModal .btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 15px rgba(74, 107, 175, 0.3);
+}
+
+#addEmployeeModal .btn-outline-secondary {
+    border-color: #cbd5e0;
+    color: #4a5568;
+}
+
+#addEmployeeModal .btn-outline-secondary:hover {
+    background-color: #f1f5f9;
+    border-color: #a0aec0;
+}
+
+/* 间距调整 */
+#addEmployeeModal .modal-body {
+    padding: 2rem;
+}
+
+#addEmployeeModal .row.g-3 > [class*='col-'] {
+    margin-bottom: 0.5rem;
+}
+
+/* 文本域对齐修复 */
+#addEmployeeModal textarea.form-control {
+    resize: vertical;
+    min-height: 80px;
+}
+
+#addEmployeeModal .input-group-text.align-items-start {
+    padding-top: 0.9rem;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    #addEmployeeModal .modal-dialog {
+        margin: 1rem;
+    }
+
+    #addEmployeeModal .modal-body {
+        padding: 1.5rem 1rem;
+    }
+
+    #addEmployeeModal .col-md-4,
+    #addEmployeeModal .col-md-6,
+    #addEmployeeModal .col-md-12 {
+        margin-bottom: 1rem;
+    }
+
+    #addEmployeeModal .btn {
+        padding: 0.6rem 1rem;
+    }
+}
+
+#employeeDetailModal .modal-content {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#employeeDetailModal .modal-header {
+    border-bottom: 2px solid #f0f0f0;
+    padding: 1.25rem 1.5rem;
+}
+
+#employeeDetailModal .modal-body {
+    background-color: #f8f9fa;
+}
+
+#employeeDetailModal .card {
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+#employeeDetailModal .card:hover {
+    transform: translateY(-2px);
+}
+
+#employeeDetailModal .badge {
+    font-size: 0.85em;
+    padding: 0.5em 1em;
+}
+
+#employeeDetailModal .text-break {
+    word-break: break-word;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    #employeeDetailModal .modal-dialog {
+        margin: 0.5rem;
+    }
+
+    #employeeDetailModal .modal-body {
+        padding: 1rem;
+    }
+
+    #employeeDetailModal .col-md-6 {
+        margin-bottom: 1rem;
+    }
+}
+
+/* 员工编辑UI */
+
+/* 头像容器样式 */
+.avatar-container {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.avatar-container:hover {
+    transform: scale(1.05);
+}
+
+.avatar-container:hover .avatar-overlay {
+    opacity: 0.7;
+}
+
+.avatar-preview {
+    border: 3px solid #dee2e6;
+    transition: border-color 0.3s ease;
+}
+
+.avatar-preview:hover {
+    border-color: #4a6baf;
+}
+
+.avatar-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 1.5rem;
+}
+
+/* 表单样式优化 */
+#editEmployeeForm .form-label {
+    font-weight: 500;
+    color: #495057;
+}
+
+#editEmployeeForm .form-control:focus,
+#editEmployeeForm .form-select:focus {
+    border-color: #4a6baf;
+    box-shadow: 0 0 0 0.25rem rgba(74, 107, 175, 0.25);
+}
+
+#editEmployeeForm .card {
+    transition: box-shadow 0.3s ease;
+}
+
+#editEmployeeForm .card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* 必填字段标识 */
+.text-danger {
+    color: #dc3545 !important;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .modal-body {
+        padding: 1rem;
+    }
+
+    .avatar-preview {
+        width: 80px !important;
+        height: 80px !important;
+    }
+
+    .btn-group {
+        flex-wrap: wrap;
+        gap: 0.25rem;
+    }
+}
+
+/* 输入组样式优化 */
+.input-group-text {
+    background-color: #f8f9fa;
+    border-color: #ced4da;
+}

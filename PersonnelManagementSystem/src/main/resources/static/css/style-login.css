@@ -1,0 +1,232 @@
+:root {
+    --primary-color: #4a6baf;
+    --primary-dark: #3a5a9f;
+    --primary-light: #eef2ff;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 420px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 40px;
+    position: relative;
+}
+
+/* 装饰元素 */
+.login-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: linear-gradient(90deg, var(--primary-color), #764ba2);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.login-header h2 {
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+
+.login-header p {
+    color: #7f8c8d;
+    font-size: 15px;
+    margin: 0;
+}
+
+/* 表单样式 */
+.form-label {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 8px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.form-label::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 16px;
+    background: var(--primary-color);
+    margin-right: 8px;
+    border-radius: 2px;
+}
+
+.form-control {
+    border: 2px solid #e1e8ed;
+    border-radius: 10px;
+    padding: 12px 16px 12px 45px; /* 左边增加内边距给图标留空间 */
+    font-size: 15px;
+    transition: all 0.3s ease;
+    background-color: #f8f9fa;
+    height: 48px; /* 固定高度确保对齐 */
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(74, 107, 175, 0.1);
+    background-color: white;
+}
+
+.form-control::placeholder {
+    color: #a0aec0;
+}
+
+/* 记住我样式 */
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.form-check-input {
+    width: 18px;
+    height: 18px;
+    margin-top: 0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.form-check-label {
+    color: #4a5568;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* 登录按钮 */
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 48px; /* 与输入框高度一致 */
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(74, 107, 175, 0.3);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* 页脚 */
+.login-footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #edf2f7;
+    color: #718096;
+    font-size: 14px;
+}
+
+.login-footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.login-footer a:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+}
+
+/* 图标样式 - 修复对齐问题 */
+.form-group-icon {
+    position: relative;
+}
+
+.form-group-icon i {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%); /* 垂直居中 */
+    color: #a0aec0;
+    font-size: 18px;
+    z-index: 2;
+    line-height: 1; /* 确保图标本身垂直居中 */
+}
+
+/* 修正图标的垂直对齐 */
+.form-group-icon i::before {
+    display: block; /* 使图标以块级元素显示，便于垂直居中 */
+}
+
+.form-control:focus + i {
+    color: var(--primary-color);
+}
+
+/* 响应式调整 */
+@media (max-width: 480px) {
+    .login-container {
+        padding: 30px 25px;
+    }
+
+    .login-header h2 {
+        font-size: 24px;
+    }
+
+    .form-control {
+        height: 44px; /* 移动端稍小的高度 */
+    }
+
+    .btn-primary {
+        height: 44px;
+    }
+}
+
+/* 错误状态 */
+.error {
+    border-color: #e53e3e !important;
+}
+
+.error-message {
+    color: #e53e3e;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+}
+
+.has-error .error-message {
+    display: block;
+}

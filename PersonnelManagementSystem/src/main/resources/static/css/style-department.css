@@ -1,0 +1,104 @@
+/* 部门卡片样式 */
+.department-card {
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.department-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.department-card .card-header {
+    border-radius: 12px 12px 0 0 !important;
+    padding: 1.25rem 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 渐变背景 */
+.bg-gradient-primary {
+    background: linear-gradient(135deg, #4a6baf 0%, #3a5a9f 100%);
+}
+
+.bg-gradient-success {
+    background: linear-gradient(135deg, #28a745 0%, #218838 100%);
+}
+
+.bg-gradient-info {
+    background: linear-gradient(135deg, #17a2b8 0%, #138496 100%);
+}
+
+/* 卡片角标 */
+.department-corner {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(45deg);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.department-corner i {
+    color: rgba(255, 255, 255, 0.7);
+    transform: rotate(-45deg);
+    font-size: 1.2rem;
+}
+
+/* 图标圆圈 */
+.icon-circle {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+/* 列表项 */
+.list-group-item {
+    border: none;
+    background: transparent;
+}
+
+/* 卡片标题 */
+.card-title {
+    font-size: 1.1rem;
+}
+
+/* 员工数量徽章 */
+.badge {
+    font-size: 0.75rem;
+    padding: 0.4em 0.8em;
+}
+
+/* 按钮样式 */
+.department-btn {
+    border-radius: 6px;
+    padding: 0.375rem 0.5rem;
+    font-size: 0.85rem;
+    transition: all 0.2s ease;
+}
+
+.department-btn:hover {
+    transform: translateY(-1px);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .department-card .card-header {
+        padding: 1rem;
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+
+    .icon-circle {
+        width: 32px;
+        height: 32px;
+    }
+}
