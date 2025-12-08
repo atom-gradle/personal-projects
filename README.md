@@ -10,8 +10,6 @@ A backend supporting LionHill Cloud Vision Platform.
 A whole system for personnel management.
 ### [Feather App](./Feather/)
 A WeChat-inspired Social Android App.
-### [Feather App](./Feather/)
-A WeChat-inspired Social Android App.
 ### [TeachingMagementApp](./TeachingMagementApp/)
 An Desktop Application supported by Qt 5, c++ 11.
 ### [CNN Network Implementation](./NeuralNetwork/)
