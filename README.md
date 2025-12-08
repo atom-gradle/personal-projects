@@ -4,6 +4,12 @@ Welcome to my personal projects repository! This is a collection of various prog
 
 ## 📁 Projects
 
+### [LionHill Cloud Vision Backend](./ssCloudEye/)
+A backend supporting LionHill Cloud Vision Platform.
+### [PersonnelManagementSystem](./PersonnelManagementSystem/)
+A whole system for personnel management.
+### [Feather App](./Feather/)
+A WeChat-inspired Social Android App.
 ### [Feather App](./Feather/)
 A WeChat-inspired Social Android App.
 ### [TeachingMagementApp](./TeachingMagementApp/)
@@ -19,6 +25,7 @@ A non-blocking concurrent server implementation of NIO model, developed by API i
 - MySQL
 - Springboot
 - Android
+- Kotlin
 - c++
 
 ## 📚 About
