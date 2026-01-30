@@ -21,9 +21,9 @@ A non-blocking concurrent server implementation of NIO model, developed by API i
 
 - Java
 - MySQL
+- Redis
 - Springboot
-- Android
-- Kotlin
+- RabbitMQ
 - c++
 
 ## 📚 About
