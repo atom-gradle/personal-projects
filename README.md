@@ -39,4 +39,4 @@ Each project has its own setup instructions. Please refer to the specific projec
 
 ## 📄 License
 
-This project is open source. Feel free to explore, learn, and contribute!
+This project is open source obeying **GPL v3 liscence**. Feel free to explore, learn, and contribute!
