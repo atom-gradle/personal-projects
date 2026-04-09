@@ -9,13 +9,13 @@ A backend supporting the frontend Wechat micro application, developed using Spri
 ### [NIO-Turbo](./Reactor/)
 A TCP server with high cuccurency based on Reactor architecture, supporting customized message protocol, developed with help of java.nio APIs.
 ### [PersonnelManagementSystem](./PersonnelManagementSystem/)
-A whole system for personnel management.
+A software for personnel management.
 ### [Feather App](./Feather/)
-A WeChat-inspired Social Android App.
+A Wechat-inspired Android App for socialization.
 ### [TeachingMagementApp](./TeachingMagementApp/)
-An Desktop Application supported by Qt 5, c++ 11.
+A desktop application using Qt 5, c++ 11.
 ### [CNN Network Implementation](./NeuralNetwork/)
-A from-scratch Java implementation of Handwritten Digit Recognition CNN Network.
+A from-scratch implementation of Handwritten Digit Recognition CNN Network using Java language without any third-party libaraies or packages.
 
 ## 🛠️ Technologies Used
 
