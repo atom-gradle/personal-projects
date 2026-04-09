@@ -4,6 +4,10 @@ Welcome to my personal projects repository! This is a collection of various prog
 
 ## 📁 Projects
 
+### [Backend](./Backend/)
+A backend supporting the frontend Wechat micro application, developed using Spring Boot.
+### [NIO-Turbo](./Reactor/)
+A TCP server with high cuccurency based on Reactor Architecture, developed by the java.nio APIs.
 ### [PersonnelManagementSystem](./PersonnelManagementSystem/)
 A whole system for personnel management.
 ### [Feather App](./Feather/)
@@ -12,16 +16,14 @@ A WeChat-inspired Social Android App.
 An Desktop Application supported by Qt 5, c++ 11.
 ### [CNN Network Implementation](./NeuralNetwork/)
 A from-scratch Java implementation of Handwritten Digit Recognition CNN Network.
-### [NIO Server](./Reactor/)
-A non-blocking concurrent server implementation of NIO model, developed by API in the java.nio package.
 
 ## 🛠️ Technologies Used
 
 - Java
 - MySQL
-- Redis
 - Springboot
 - RabbitMQ
+- Mybatis-Plus
 - c++
 
 ## 📚 About
