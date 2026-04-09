@@ -7,7 +7,7 @@ Welcome to my personal projects repository! This is a collection of various prog
 ### [Backend](./Backend/)
 A backend supporting the frontend Wechat micro application, developed using Spring Boot.
 ### [NIO-Turbo](./Reactor/)
-A TCP server with high cuccurency based on Reactor architecture, supporting customized message protocol, developed with help of java.nio APIs.
+A TCP server with high cuccurency based on **Reactor** architecture, supporting customized message protocol, developed with help of java.nio APIs.
 ### [PersonnelManagementSystem](./PersonnelManagementSystem/)
 A software for personnel management.
 ### [Feather App](./Feather/)
